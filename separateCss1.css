@@ -1,0 +1,90 @@
+@charset "utf-8";
+* {
+	padding: 0px;
+	margin: 0px;
+	width: auto;
+	
+}
+
+body {
+	background-color: #FF52F3;
+	background-image: url(background.jpg);
+	font-family: bonbon;
+	font-style: normal;
+	text-align: left;
+	font-size: large;
+	font-weight: 400;
+	text-transform: uppercase;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+	font-style: oblique;
+}
+#wrapper {
+	background-image: url(background.png);
+	  background-size:100% 100%;
+    -webkit-background-size:100% 100%;        /*  Safari  */
+    -khtml-background-size:100% 100%;         /*  Konqueror  */
+    -moz-background-size:100% 100%;          
+	background-position: left;
+	background-size: contain;
+	width: 70%;
+	height: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 2em;
+}
+header {
+	text-align: center;
+	padding: 1em;
+	background-image: url(header.png);
+	background-size:100% 100%;
+    -webkit-background-size:100% 100%;        /*  Safari  */
+    -khtml-background-size:100% 100%;         /*  Konqueror  */
+    -moz-background-size:100% 100%;          
+	background-position: center;
+	background-size: contain;
+}
+#left {
+	background-image: url(left.png);
+	background-size: 100% 100%;
+	-webkit-background-size: 100% 100%;        /*  Safari  */
+	-khtml-background-size: 100% 100%;         /*  Konqueror  */
+	-moz-background-size: 100% 100%;
+	background-position: left;
+	float: left;
+	width: 40%;
+	height: 300px;
+	padding: 1em;
+	margin: 1em;
+	text-align: center;
+}
+#right {
+	width: 60%;
+	background-size: 100% 100%;
+	-webkit-background-size: 100% 100%;        /*  Safari  */
+	-khtml-background-size: 100% 100%;         /*  Konqueror  */
+	-moz-background-size: 100% 100%;
+	background-image: url(right.png);
+	background-position: bottom;
+	float: right;
+	width: 40%;
+	height: 300px;
+	padding: 1em;
+	margin: 1em;
+	text-align: center;
+}
+a {
+	text-decoration: none;
+	color: #5100FF;
+}
+a:hover {
+	color: #FF9600;
+}
+footer {
+	background-color: yellowgreen;
+	text-align: center;
+    position:fixed;
+    bottom:5px; 
+    width:100%;
+    height:20px;
+	 font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+}
